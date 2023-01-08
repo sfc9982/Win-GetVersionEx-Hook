@@ -1,11 +1,3 @@
-//////////////////////////////////////////////////////////////////////////////
-//
-//  Detours Test Program (sleep5.cpp of sleep5.exe)
-//
-//  Microsoft Research Detours Package
-//
-//  Copyright (c) Microsoft Corporation.  All rights reserved.
-//
 #pragma warning(disable : 4996)
 
 #include <windows.h>
