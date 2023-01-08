@@ -52,6 +52,7 @@ $(BIND)\GetVersion.exe : $(OBJD)\GetVersion.obj $(DEPS)
         /link $(LINKFLAGS) $(LIBS) \
         /subsystem:console
 	mt /manifest GetVersion.manifest -outputresource:$(BIND)\GetVersion.exe
+# mt with manifest enables GetVersion for OS >= Windows 8.1
 
 $(OBJD)\GetVersion.bsc : $(OBJD)\GetVersion.obj
     bscmake /v /n /o $@ $(OBJD)\GetVersion.sbr
