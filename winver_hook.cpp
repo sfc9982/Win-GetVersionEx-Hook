@@ -1,15 +1,3 @@
-//////////////////////////////////////////////////////////////////////////////
-//
-//  Detours Test Program (simple.cpp of simple.dll)
-//
-//  Microsoft Research Detours Package
-//
-//  Copyright (c) Microsoft Corporation.  All rights reserved.
-//
-//  This DLL will detour the Windows GetVersionEx API so that TimedSleep function
-//  gets called instead.  W10GetVersionEx records the before and after times, and
-//  calls the real GetVersionEx API through the TrueGetVersionEx function pointer.
-//
 #pragma warning(disable : 4996)
 
 #include <stdio.h>
