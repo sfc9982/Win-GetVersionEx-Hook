@@ -1,12 +1,3 @@
-##############################################################################
-##
-##  API Extention to Measure time slept.
-##
-##  Microsoft Research Detours Package
-##
-##  Copyright (c) Microsoft Corporation.  All rights reserved.
-##
-
 !include ..\common.mak
 
 LIBS=$(LIBS) kernel32.lib
